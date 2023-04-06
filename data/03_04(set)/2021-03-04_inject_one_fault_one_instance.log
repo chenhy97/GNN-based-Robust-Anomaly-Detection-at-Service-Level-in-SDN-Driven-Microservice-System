@@ -1,0 +1,92 @@
+2021-03-04 12:09:58	blade create k8s pod-network --namespace hipster --names emailservice-67fdf7b59d-5mlvg loss --percent 76 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 12:10:10	Inject 76 percent loss for pod emailservice-67fdf7b59d-5mlvg succefully
+2021-03-04 12:10:10	{"code":200,"success":true,"result":"79ee0c183f7652c2"}
+
+2021-03-04 13:12:54	blade create k8s pod-network --namespace hipster --names checkoutservice-84885776f5-vdpzf delay --time 1144 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 13:13:06	Inject 1144 ms delay for pod checkoutservice-84885776f5-vdpzf succefully
+2021-03-04 13:13:06	{"code":200,"success":true,"result":"2c18d680241b2f54"}
+
+2021-03-04 14:15:57	blade create k8s pod-network --namespace hipster --names currencyservice-849b8b88c-58zfh loss --percent 61 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 14:16:09	Inject 61 percent loss for pod currencyservice-849b8b88c-58zfh succefully
+2021-03-04 14:16:09	{"code":200,"success":true,"result":"0340f343a9f29dbb"}
+
+2021-03-04 15:19:17	blade create k8s pod-network --namespace hipster --names checkoutservice-84885776f5-vdpzf loss --percent 70 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 15:19:29	Inject 70 percent loss for pod checkoutservice-84885776f5-vdpzf succefully
+2021-03-04 15:19:29	{"code":200,"success":true,"result":"ed7672bd5720254d"}
+
+2021-03-04 16:20:42	blade create k8s pod-network --namespace hipster --names shippingservice-6fc9fdc757-bb45d loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 16:20:54	Inject 65 percent loss for pod shippingservice-6fc9fdc757-bb45d succefully
+2021-03-04 16:20:54	{"code":200,"success":true,"result":"b3f2758d409fc936"}
+
+2021-03-04 17:21:37	blade create k8s pod-network --namespace hipster --names productcatalogservice-7b7d56f87f-b6f2v loss --percent 77 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 17:21:49	Inject 77 percent loss for pod productcatalogservice-7b7d56f87f-b6f2v succefully
+2021-03-04 17:21:49	{"code":200,"success":true,"result":"8a8445268ae198a9"}
+
+2021-03-04 18:20:54	blade create k8s pod-network --namespace hipster --names shippingservice-6fc9fdc757-bb45d loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 18:21:06	Inject 65 percent loss for pod shippingservice-6fc9fdc757-bb45d succefully
+2021-03-04 18:21:06	{"code":200,"success":true,"result":"9e0808cb3e79b8d3"}
+
+2021-03-04 19:21:38	blade create k8s pod-network --namespace hipster --names checkoutservice-84885776f5-vdpzf delay --time 4335 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 19:21:50	Inject 4335 ms delay for pod checkoutservice-84885776f5-vdpzf succefully
+2021-03-04 19:21:50	{"code":200,"success":true,"result":"b4d8d85ea7995f33"}
+
+2021-03-04 20:22:25	blade create k8s pod-network --namespace hipster --names recommendationservice-856d97fbd6-4qd4s delay --time 2270 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 20:22:37	Inject 2270 ms delay for pod recommendationservice-856d97fbd6-4qd4s succefully
+2021-03-04 20:22:37	{"code":200,"success":true,"result":"91f1bf4e6f60a472"}
+
+2021-03-04 21:26:23	blade create k8s pod-network --namespace hipster --names productcatalogservice-7b7d56f87f-b6f2v loss --percent 78 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 21:26:35	Inject 78 percent loss for pod productcatalogservice-7b7d56f87f-b6f2v succefully
+2021-03-04 21:26:35	{"code":200,"success":true,"result":"0fdaa13a4248f687"}
+
+2021-03-04 22:27:30	blade create k8s pod-network --namespace hipster --names shippingservice-6fc9fdc757-bb45d loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 22:27:42	Inject 65 percent loss for pod shippingservice-6fc9fdc757-bb45d succefully
+2021-03-04 22:27:42	{"code":200,"success":true,"result":"209ea6c018e6c7ed"}
+
+2021-03-04 23:29:14	blade create k8s pod-network --namespace hipster --names adservice-5f985cc8d9-7vsr2 loss --percent 73 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-04 23:29:26	Inject 73 percent loss for pod adservice-5f985cc8d9-7vsr2 succefully
+2021-03-04 23:29:26	{"code":200,"success":true,"result":"ea17d46d11ac26ab"}
+
+2021-03-05 00:33:05	blade create k8s pod-network --namespace hipster --names recommendationservice-856d97fbd6-tvp26 delay --time 2068 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 00:33:17	Inject 2068 ms delay for pod recommendationservice-856d97fbd6-tvp26 succefully
+2021-03-05 00:33:17	{"code":200,"success":true,"result":"793c28e5312f430b"}
+
+2021-03-05 01:33:19	blade create k8s pod-network --namespace hipster --names shippingservice-6fc9fdc757-bb45d loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 01:33:32	Inject 65 percent loss for pod shippingservice-6fc9fdc757-bb45d succefully
+2021-03-05 01:33:32	{"code":200,"success":true,"result":"ee519cc8daa3b71d"}
+
+2021-03-05 02:36:30	blade create k8s pod-network --namespace hipster --names checkoutservice-84885776f5-vdpzf loss --percent 70 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 02:36:43	Inject 70 percent loss for pod checkoutservice-84885776f5-vdpzf succefully
+2021-03-05 02:36:43	{"code":200,"success":true,"result":"7f24b2724a3a8a26"}
+
+2021-03-05 03:38:01	blade create k8s pod-network --namespace hipster --names cartservice-5bff467fb9-rnq8g loss --percent 66 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 03:38:14	Inject 66 percent loss for pod cartservice-5bff467fb9-rnq8g succefully
+2021-03-05 03:38:14	{"code":200,"success":true,"result":"63819b5ca4e1decb"}
+
+2021-03-05 04:40:57	blade create k8s pod-network --namespace hipster --names adservice-5f985cc8d9-dgxzj loss --percent 67 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 04:41:10	Inject 67 percent loss for pod adservice-5f985cc8d9-dgxzj succefully
+2021-03-05 04:41:10	{"code":200,"success":true,"result":"b34967e1d01a0b65"}
+
+2021-03-05 05:44:13	blade create k8s pod-network --namespace hipster --names checkoutservice-84885776f5-rpvd9 loss --percent 70 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 05:44:26	Inject 70 percent loss for pod checkoutservice-84885776f5-rpvd9 succefully
+2021-03-05 05:44:26	{"code":200,"success":true,"result":"d8a9255375c5fb45"}
+
+2021-03-05 06:44:35	blade create k8s pod-network --namespace hipster --names currencyservice-849b8b88c-tlfqp loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 06:44:48	Inject 65 percent loss for pod currencyservice-849b8b88c-tlfqp succefully
+2021-03-05 06:44:48	{"code":200,"success":true,"result":"4c2df0583f939293"}
+
+2021-03-05 07:44:18	blade create k8s pod-network --namespace hipster --names shippingservice-6fc9fdc757-bb45d loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 07:44:31	Inject 65 percent loss for pod shippingservice-6fc9fdc757-bb45d succefully
+2021-03-05 07:44:31	{"code":200,"success":true,"result":"dbb53d18558dc2d0"}
+
+2021-03-05 08:46:58	blade create k8s pod-network --namespace hipster --names frontend-664f5b878c-xvvws loss --percent 69 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 08:47:11	Inject 69 percent loss for pod frontend-664f5b878c-xvvws succefully
+2021-03-05 08:47:11	{"code":200,"success":true,"result":"5e83cbece16ed1e9"}
+
+2021-03-05 09:49:38	blade create k8s pod-network --namespace hipster --names cartservice-5bff467fb9-tljjq loss --percent 65 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 09:49:50	Inject 65 percent loss for pod cartservice-5bff467fb9-tljjq succefully
+2021-03-05 09:49:50	{"code":200,"success":true,"result":"ab116140bec6673f"}
+
+2021-03-05 10:52:50	blade create k8s pod-network --namespace hipster --names currencyservice-849b8b88c-58zfh delay --time 3258 --interface eth0 --timeout 180 --kubeconfig /root/.kube/config
+2021-03-05 10:53:02	Inject 3258 ms delay for pod currencyservice-849b8b88c-58zfh succefully
+2021-03-05 10:53:02	{"code":200,"success":true,"result":"ec0450b81a4442fb"}
+
